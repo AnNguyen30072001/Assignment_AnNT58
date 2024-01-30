@@ -49,8 +49,8 @@ Student* Department::getStudentWithHighestAverageScore() const {
 
     auto maxAverageScoreStudent = students[0];
     for (const auto& student : students) {
-        float maxScore = student->getAverageScoreBySemester("Any Semester");
-        if (maxScore > maxAverageScoreStudent->getAverageScoreBySemester("Any Semester")) {
+        float maxScore = student->getAverageScoreBySemester("20231");
+        if (maxScore > maxAverageScoreStudent->getAverageScoreBySemester("20231")) {
             maxAverageScoreStudent = student;
         }
     }

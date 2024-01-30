@@ -15,7 +15,7 @@ int main() {
     student2.addSemesterResult(SemesterResult("20222", 7.2));
     computerScience.addStudent(&student2);
 
-    FullTimeStudent student3("CS003", "Nguyen Van C", "03/03/1999", 2021, 9.0);
+    FullTimeStudent student3("CS003", "Nguyen Van C", "03/03/1999", 2019, 9.0);
     student3.addSemesterResult(SemesterResult("20231", 9.2));
     student3.addSemesterResult(SemesterResult("20222", 8.7));
     computerScience.addStudent(&student3);
